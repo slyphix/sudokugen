@@ -6,7 +6,8 @@ Note that no Sudoku instance with less than 17 hints has a unique solution, and 
 
 The codebase also contains utilities to _guarantee_ a fixed number of hints, and you can even supply your own heuristics!
 
-Here are 10 puzzle instances where the solver was allowed to take 0.1 seconds per instance.
+Here are 10 puzzle instances where the generator was allowed to take 0.1 seconds per instance.
+Each line contains a separate instance, row by row, where `0` denotes an empty field.
 You can solve these instances using [my own solver](https://github.com/slyphix/sudoku), or you can write your own!
 
     005000000060800000403019800000002000102400006000068007000300000500090010001200390
